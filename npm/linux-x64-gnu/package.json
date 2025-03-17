@@ -1,0 +1,23 @@
+{
+  "name": "@effishai/pdf-extract-node-linux-x64-gnu",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "pdf-extract-node.linux-x64-gnu.node",
+  "files": [
+    "pdf-extract-node.linux-x64-gnu.node"
+  ],
+  "description": "PDF text extract",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/EffishAI/pdf-extract-node.git",
+  "libc": [
+    "glibc"
+  ]
+}
