@@ -12,3 +12,12 @@ pub fn extract_text(buf: Buffer) -> String {
     Err(_) => "".to_string(),
   }
 }
+
+
+#[napi]
+pub fn extract_text_by_pages(buf: Buffer) -> Vec<String> {
+  match pdf_extract::extract_text_from_mem_by_pages(&buf) {
+    Ok(text) => text,
+    Err(_) => vec![],
+  }
+}
