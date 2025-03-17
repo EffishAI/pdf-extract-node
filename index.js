@@ -310,6 +310,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { extractText } = nativeBinding
+const { extractText, extractTextByPages } = nativeBinding
 
 module.exports.extractText = extractText
+module.exports.extractTextByPages = extractTextByPages
