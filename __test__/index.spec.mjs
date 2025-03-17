@@ -1,7 +1,7 @@
 import test from 'ava'
 
-import { sum } from '../index.js'
+import { extractText } from '../index.js'
 
-test('sum from native', (t) => {
-  t.is(sum(1, 2), 3)
+test('extractText from native', (t) => {
+  t.is(extractText(Buffer.from("")), "")
 })

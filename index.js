@@ -310,6 +310,6 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { extractTextFromMem } = nativeBinding
+const { extractText } = nativeBinding
 
-module.exports.extractTextFromMem = extractTextFromMem
+module.exports.extractText = extractText
