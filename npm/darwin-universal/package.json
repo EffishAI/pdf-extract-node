@@ -13,5 +13,5 @@
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/EffishAI/pdf-extract-node.git"
+  "repository": "https://github.com/effishai/pdf-extract-node.git"
 }
